@@ -1,0 +1,42 @@
+{
+  "name": "egen-fe-challenge",
+  "authors": [
+    "Nishant Sharma <nishant.sharma.jecrc@gmail.com>"
+  ],
+  "description": "Egen coding chellenge , Build a ccLogo directive",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.8",
+    "angular-messages": "^1.5.8",
+    "angular-ui-notification": "^0.2.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/fonts/glyphicons-halflings-regular.eot",
+        "dist/fonts/glyphicons-halflings-regular.svg",
+        "dist/fonts/glyphicons-halflings-regular.ttf",
+        "dist/fonts/glyphicons-halflings-regular.woff",
+        "dist/fonts/glyphicons-halflings-regular.woff2"
+      ]
+    },
+    "jquery": {
+      "main": []
+    }
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.8"
+  }
+}

@@ -1,0 +1,57 @@
+.cclogo {
+  width: 400px;
+  border: 4px solid #374B67;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 4px #ABABAB;
+  border-radius: 2px;
+}
+.card {
+	background: url('/images/gf-creditcard-icons.png') 35px 0px;
+	width: 35px;
+    height: 26px;
+}
+
+
+.visa {
+	background: url('/images/gf-creditcard-icons.png') 0px 0px;
+	width: 35px;
+    height: 26px;
+}
+
+.master {
+	background: url('/images/gf-creditcard-icons.png') -35px 0px;
+	width: 35px;
+    height: 26px;
+}
+
+.amex {
+	background: url('/images/gf-creditcard-icons.png') -71px 0px;
+	width: 35px;
+    height: 26px;
+}
+
+
+.discover {
+	background: url('/images/gf-creditcard-icons.png') -107px 0px;
+	width: 35px;
+    height: 26px;
+}
+
+
+.maestro {
+	background: url('/images/gf-creditcard-icons.png') -142px 0px;
+	width: 35px;
+    height: 26px;
+}
+
+.default {
+	background: url('/images/gf-creditcard-icons.png') 35px 0px;
+	width: 35px;
+    height: 26px;
+}
+.cardpadding {
+	padding:0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
