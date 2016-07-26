@@ -1,13 +1,7 @@
 (function() {
     'use strict';
-
-    angular
-        .module('myCCApp')
-        .service('CreditCardService', creditCardService)
-
-    function creditCardService() {
-        var ccService = this;
-        ccService.checkCard = function(cardinfo) {
+    class creditCardService {
+        checkCard(cardinfo) {
 
             var number = cardinfo.number;
             cardinfo.error = false;
@@ -66,7 +60,9 @@
             cardinfo.type = (number.length >= 16) ? "default":"defaultd"
             return cardinfo;
         }
-
     }
+    angular
+        .module('myCCApp')
+        .service('CreditCardService', creditCardService);
 
 })();
