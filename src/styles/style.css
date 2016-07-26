@@ -7,10 +7,53 @@
   border-radius: 2px;
 }
 .card {
-	background: url('/images/gf-creditcard-icons.png') 35px 0px;
+	background: url('/images/gf-creditcard-icons.png') -71px -66px;
 	width: 35px;
     height: 26px;
 }
+
+
+
+
+.visad {
+	background: url('/images/gf-creditcard-icons.png') 0px -66px;
+	width: 35px;
+    height: 26px;
+}
+
+.masterd {
+	background: url('/images/gf-creditcard-icons.png') -35px -66px;
+	width: 35px;
+    height: 26px;
+}
+
+.amexd {
+	background: url('/images/gf-creditcard-icons.png') -71px -66px;
+	width: 35px;
+    height: 26px;
+}
+
+
+.discoverd {
+	background: url('/images/gf-creditcard-icons.png') -107px -66px;
+	width: 35px;
+    height: 26px;
+}
+
+
+.maestrod {
+	background: url('/images/gf-creditcard-icons.png') -142px -66px;
+	width: 35px;
+    height: 26px;
+}
+
+.defaultd {
+	background: url('/images/gf-creditcard-icons.png') 35px -66px;
+	width: 35px;
+    height: 26px;
+}
+
+
 
 
 .visa {
