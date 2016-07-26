@@ -88,8 +88,6 @@
             else
                 cardinfo.type = "defaultd"
                 
-            cardinfo.error = false;
-            cardinfo.message = ""
             return cardinfo;
 
         }

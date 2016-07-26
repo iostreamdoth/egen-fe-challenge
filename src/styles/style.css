@@ -57,39 +57,39 @@
 
 
 .visa {
-	background: url('/images/gf-creditcard-icons.png') 0px 0px;
+	background: url('/images/gf-creditcard-icons.png') 0px -2px;
 	width: 35px;
     height: 26px;
 }
 
 .master {
-	background: url('/images/gf-creditcard-icons.png') -35px 0px;
+	background: url('/images/gf-creditcard-icons.png') -35px -2px;
 	width: 35px;
     height: 26px;
 }
 
 .amex {
-	background: url('/images/gf-creditcard-icons.png') -71px 0px;
+	background: url('/images/gf-creditcard-icons.png') -71px -2px;
 	width: 35px;
     height: 26px;
 }
 
 
 .discover {
-	background: url('/images/gf-creditcard-icons.png') -107px 0px;
+	background: url('/images/gf-creditcard-icons.png') -107px -2px;
 	width: 35px;
     height: 26px;
 }
 
 
 .maestro {
-	background: url('/images/gf-creditcard-icons.png') -142px 0px;
+	background: url('/images/gf-creditcard-icons.png') -142px -2px;
 	width: 35px;
     height: 26px;
 }
 
 .default {
-	background: url('/images/gf-creditcard-icons.png') 35px 0px;
+	background: url('/images/gf-creditcard-icons.png') 35px -2px;
 	width: 35px;
     height: 26px;
 }

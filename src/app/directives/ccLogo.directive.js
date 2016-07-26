@@ -16,7 +16,7 @@
                 elem.on('keyup', function() {
                     var ccInfo = creditCardService.checkCard(scope.cardinfo);
                     if (ccInfo.error) {
-                        Notification.error(ccInfo.message);
+                        Notification.error({message:ccInfo.message,delay: 1500});
                     }
 
                     scope.update();
@@ -24,7 +24,7 @@
                 elem.on('paste', function(event) {
                     var ccInfo = creditCardService.checkCard(scope.cardinfo);
                     if (ccInfo.error) {
-                        Notification.error(ccInfo.message);
+                        Notification.error({message:ccInfo.message,delay: 1500});
                     }
                     scope.update();
                 });
