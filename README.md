@@ -1,6 +1,6 @@
 # egen-fe-challenge
 
-Installing dependencies:
+Installing dependencies and running the application:
 
  * Clone this repository
  * cd egen-fe-challenge 
